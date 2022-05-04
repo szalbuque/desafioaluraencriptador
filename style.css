@@ -1,0 +1,52 @@
+*{
+	font-family:  "Inter", sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+}
+
+header {
+	margin-left: 20px;
+}
+
+body {
+	background-color: grey;
+}
+
+main {
+	display: flex;
+	margin-left:  5px;
+	margin-bottom: 50px;
+}
+
+.texto-entrada {
+	margin-top:  20px;
+}
+
+.mensagem {
+	position:  relative;
+	margin-top: 20px;
+	margin-left: 90px;
+}
+
+.texto-info {
+	font-size: 14px;
+}
+
+.botoes {
+	display: flex;
+	font-size: 18px;
+}
+
+.encriptar {
+	background-color: darkblue;
+	color:  white;
+	border-radius: 10px;
+}
+
+.desencriptar {
+	margin-left: 5px;
+	background-color: darkblue;
+	color: white;
+	border-radius: 10px;
+}
