@@ -29,6 +29,7 @@ main {
 	margin-left: 90px;
 	width: 336px;
 	height:304px;
+	background: none;
 	background-image: url("imagens/menino_com_lupa.png");
 	background-repeat: no-repeat;
 }
@@ -53,4 +54,8 @@ main {
 	background-color: darkblue;
 	color: white;
 	border-radius: 10px;
+}
+
+footer {
+	font-size:  10px;
 }

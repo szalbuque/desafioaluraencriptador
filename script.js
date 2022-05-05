@@ -10,7 +10,29 @@ function btnEncriptar() {
 
 	const textoEncriptado = encriptar(textoEntrada.value);
 	mensagem.value = textoEncriptado;
+	mensagem.style.background = "none";
 }
+
+function btnDesencriptar() {
+	const textoDesencriptado = desencriptar(textoEntrada.value);
+	mensagem.value = textoDesencriptado;
+}
+
+function desencriptar(texto){
+			/* substituir
+			ai por a
+			enter por e
+			imes por i
+			ober por o
+			ufat por u */
+
+			texto_aux = texto.replace(/ai/g,"a");
+			texto_aux = texto_aux.replace(/enter/g,"e");
+			texto_aux = texto_aux.replace(/imes/g,"i");
+			texto_aux = texto_aux.replace(/ober/g,"o");
+			texto_aux = texto_aux.replace(/ufat/g,"u");
+			return(texto_aux);
+		}
 
 function encriptar(texto) {
 			// minha solução
