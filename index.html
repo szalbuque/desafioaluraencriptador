@@ -16,17 +16,20 @@
 		<img src="imagens/logo_alura.png" alt="Logo da Alura. Letra a em azul."
 	</header>
 	<main class="principal">
-		<section class="entrada">
+		<section>
 			<textarea class="texto-entrada" cols="40" rows="6" placeholder="digite seu texto aqui"></textarea>
 			<div><h6 class="texto-info">Apenas letras minúsculas e sem acento.</h6></div>
 			<div class="botoes">
-			<button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
-			<button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
-		</div>
+				<button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+				<button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+			</div>
 		</section>
 				
-		<section class="mensagem" cols="18" rows="6">
-			<textarea class="texto-mensagem"></textarea>
+		<section cols="18" rows="6">
+			<textarea id="txt-msg" class="texto-mensagem"></textarea>
+			<div class="botoes">
+				<button class="copiar" onclick="btnCopiar()">Copiar</button>
+			</div>
 		</section>
 		
 	</main>

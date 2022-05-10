@@ -18,6 +18,14 @@ function btnDesencriptar() {
 	mensagem.value = textoDesencriptado;
 }
 
+function btnCopiar(){
+	let textoCopiado = document.getElementById("txt-msg");
+    textoCopiado.select();
+    textoCopiado.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    alert("O texto é: " + textoCopiado.value);
+}
+
 function desencriptar(texto){
 			/* substituir
 			ai por a
