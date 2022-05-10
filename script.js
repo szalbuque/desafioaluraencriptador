@@ -23,7 +23,6 @@ function btnCopiar(){
     textoCopiado.select();
     textoCopiado.setSelectionRange(0, 99999)
     document.execCommand("copy");
-    alert("O texto é: " + textoCopiado.value);
 }
 
 function desencriptar(texto){
